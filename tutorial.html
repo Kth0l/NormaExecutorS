@@ -2,33 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Roblox Injector Tutorial</title>
-  <link rel="stylesheet" href="styles.css" /> <!-- Se usar CSS externo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tutorial - Norma Executor</title>
+  <style>
+    body {
+      background-color: #1e1e2f;
+      color: #d4d4d4;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2d2d44;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      color: #007acc;
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: #d4d4d4;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #007acc;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #007acc;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h3 {
+      font-size: 24px;
+      color: #61dafb;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #cfcfcf;
+    }
+
+    code, pre {
+      background-color: #2d2d44;
+      color: #c0ffee;
+      padding: 10px;
+      display: block;
+      border-radius: 6px;
+      margin-top: 10px;
+      overflow-x: auto;
+    }
+
+    footer {
+      background-color: #2d2d44;
+      text-align: center;
+      padding: 15px 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 26px;
+      }
+      section h3 {
+        font-size: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>How to use the Roblox Injector</h1>
+    <h1>Norma Executor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tutorial.html">Tutorial</a>
+      <a href="https://discord.gg/seu-codigo" target="_blank">Discord</a>
+    </nav>
   </header>
+
   <main>
+    <h2>Como Usar o Norma Executor</h2>
+
     <section>
-      <h2>Step 1: Download</h2>
-      <p>Download the Norma Executor from the main page.</p>
+      <h3>1. Obtenha sua Key</h3>
+      <p>
+        Abra o terminal do Windows (CMD) e digite:
+      </p>
+      <code>-ri key</code>
+      <p>Isso irá mostrar a key temporária que você deve usar para acessar o executor.</p>
     </section>
+
     <section>
-      <h2>Step 2: Generate Key</h2>
-      <p>Open your CMD and type <code>-ri key</code> to get your unique key.</p>
+      <h3>2. Inicie o Norma Executor</h3>
+      <p>
+        Dê duplo clique no arquivo <code>injector.py</code> ou abra pelo terminal com:
+      </p>
+      <code>python injector.py</code>
     </section>
+
     <section>
-      <h2>Step 3: Inject Script</h2>
-      <p>Log in with your key and inject your Lua script.</p>
+      <h3>3. Insira a Key</h3>
+      <p>Quando solicitado, cole a key copiada do CMD. O executor irá validar e iniciar.</p>
     </section>
+
     <section>
-      <h2>WARNING: Use the key command before opening the program, after getting the key use 'python injector.py'</h2>
+      <h3>4. Escreva ou carregue scripts</h3>
+      <p>Use o editor interno para criar scripts ou clique em "Abrir" para importar um arquivo `.lua`.</p>
+    </section>
+
+    <section>
+      <h3>5. Injete no Roblox</h3>
+      <p>Com o Roblox aberto em segundo plano, clique em "Injetar".</p>
+    </section>
+    
+    <section>
+      <h3>WARNING - Run the '-ri key' command before opening de Injector.py using 'python injector.py'</h3>
       <p>FAQ | Will appear here</p>
     </section>
   </main>
+
   <footer>
-    <p>© 2025 Roblox Injector Project</p>
+    &copy; 2025 Norma Executor Project. All rights reserved.
   </footer>
 </body>
 </html>
